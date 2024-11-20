@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jimmy Santiago Orozco | Desarrollador Front-End</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <ul class="nav-list">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#acerca" class="nav-link">Acerca de Mí</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero-section" aria-label="Introducción">
+            <div id="particles" class="particles"></div>
+            <div class="hero-content">
+                <h1>Jimmy Santiago Orozco</h1>
+                <p>Software Engineering Front-End (HTML | CSS | JavaScript)</p>
+            </div>
+        </section>
+        
+
+        <!-- Profile Section -->
+        <div class="container">
+            <div class="language-buttons">
+                <button onclick="switchLanguage('spanish')">Español</button>
+                <button onclick="switchLanguage('english')">English</button>
+            </div>
+            <br>
+            <img src="Imagenes/Foto elegante.jpg" alt="Profile Picture" class="profile-image">
+            <br>
+            
+            <div class="biografia-text">
+                <div class="bio-version spanish active">
+                    <p>Soy un joven entusiasta de la tecnología, con sólidas habilidades en HTML, CSS, SQL y JavaScript. Me destaco por mis capacidades comunicativas y mi enfoque proactivo, lo que facilita una colaboración efectiva en equipos de trabajo.</p>
+                    <p>Además, me considero una persona organizada y diligente, siempre dispuesta a aprender y crecer. Estoy emocionado por la oportunidad de contribuir a proyectos innovadores y seguir desarrollando mis habilidades como programador.</p>
+                </div>
+                
+                <div class="bio-version english">
+                    <p>I am a young technology enthusiast, with strong skills in HTML, CSS, SQL and JavaScript. I stand out for my communication skills and my proactive approach, which facilitates effective collaboration in work teams.</p>
+                    <p>Furthermore, I consider myself an organized and diligent person, always willing to learn and grow. I am excited by the opportunity to contribute to innovative projects and continue developing my skills as a programmer.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+
+        <!-- Skills Section -->
+        <section id="habilidades" class="habilidades-section" aria-label="Habilidades técnicas">
+            <div class="container">
+                <h2 class="section-title">Mis Habilidades</h2>
+                <br><br>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="Imagenes/icons8-html-5-240.png" alt="HTML5" loading="lazy" width="80" height="80">
+                        <h3>HTML5</h3>
+                        <p>Estructura y semántica web</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Imagenes/icons8-css3-240.png" alt="CSS3" loading="lazy" width="80" height="80">
+                        <h3>CSS3</h3>
+                        <p>Estilos y diseño responsivo</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Imagenes/icons8-javascript-240.png" alt="JavaScript" loading="lazy" width="80" height="80">
+                        <h3>JavaScript</h3>
+                        <p>Interactividad y funcionalidad</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Imagenes/icons8-github-250.png" alt="github" loading="lazy" width="80" height="80">
+                        <h3>Github</h3>
+                        <p>Plataforma de programacion</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Imagenes/icons8-microsoft-office-2019-240.png" alt="office" loading="lazy" width="80" height="80">
+                        <h3>Office</h3>
+                        <p>Herramientas ofimaticas</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Imagenes/icons8-inteligencia-artificial-240.png" alt="IA" loading="lazy" width="80" height="80">
+                        <h3>IA</h3>
+                        <p>Inteligencia artificial</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+
+        <!-- Projects Section -->
+        <section id="proyectos" class="proyectos-section" aria-label="Proyectos destacados">
+            <div class="container">
+                <h2 class="section-title">Proyecto Finalizado</h2>
+                <br><br><br>
+                <div class="proyectos-grid">
+                    <article class="proyecto-card">
+                        <div class="proyecto-imagen">
+                            <img src="Imagenes/Imagen pagina universidad .jpg" alt="Vista previa del proyecto Utegnologias" loading="lazy" width="400" height="300">
+                        </div>
+                        <div class="proyecto-info">
+                            <h3 class="proyecto-titulo">Utegnologias</h3>
+                            <p class="proyecto-descripcion">Plataforma educativa diseñada para facilitar el acceso a recursos universitarios para estudiantes que trabajan. Ofrece soluciones digitales para gestionar trámites y consultas sin necesidad de presencia física.</p>
+                            <div class="proyecto-links">
+                                <br><br>
+                                <a href="https://jimmysantiago.github.io/universidad/" target="_blank" rel="noopener noreferrer" class="btn-proyecto">
+                                    <span>Ver Proyecto</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                                        <polyline points="7 7 17 7 17 17"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+
+        <!-- Gallery Section -->
+        <section id="galeria" class="galeria-section" aria-label="Galería de imágenes">
+            <div class="container">
+                <h2 class="section-title">Galería</h2>
+                <br><br>
+                <div class="carousel-container">
+                    <button class="carousel-button prev-button" aria-label="Anterior">←</button>
+                    <button class="carousel-button next-button" aria-label="Siguiente">→</button>
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="Imagenes/Personal 1 .jpg" alt="Imagen 1" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Imagenes/Personal 2.jpg" alt="Imagen 2" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Imagenes/mama.jpg" alt="Imagen 3" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Imagenes/mi bebe .jpg" alt="Imagen 4" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Imagenes/familia.jpg" alt="Imagen 5" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Imagenes/Personal 6 .jpg" alt="Imagen 6" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="carousel-indicators"></div>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contacto-section" aria-label="Formulario de contacto">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contacto-grid">
+                    <div class="contacto-info">
+                        <h3>¡Hablemos!</h3>
+                        <p>Soy Desarrollador Front-End</p>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder=" " required>
+                            <label class="form-label" for="name">Nombre completo</label>
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder=" " required>
+                            <label class="form-label" for="email">Correo electrónico</label>
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="4" placeholder=" " required></textarea>
+                            <label class="form-label" for="message">Mensaje</label>
+                            <div class="error-message" id="messageError"></div>
+                        </div>
+                
+                        <button type="submit" class="submit-btn" id="submitBtn">Enviar mensaje</button>
+                
+                        <div class="loading" id="loading">
+                            <div class="loading-spinner"></div>
+                        </div>
+                
+                        <div class="success-message" id="successMessage">
+                            ¡Mensaje enviado con éxito! Te contactaré pronto.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br><br>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h1>Sigueme en mis redes tocando la foto</h1>
+        <br><br><br><br><br><br><br><br><br><br>
+        <div class="card">
+            <div class="front">
+                <img src="Imagenes/Personal 6 .jpg" alt="Foto" class="profile-photo">
+            </div>
+            <div class="back">
+                <div class="details">
+                    <h2>Santiago Orozco <br><span>Front-End</span></h2>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/orozcojimmy987?mibextid=LQQJ4d" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/santiago_biker.0/profilecard/?igsh=NGVpbDF0NHNyMWk2" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jimmy-santiago-orozco-4004a2289/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/3124843857" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.tiktok.com/@santiago.r15_v3?_t=8rEp1HObdhw&_r=1" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="js/portada.js" defer></script>
+    <script src="js/Perfil.js" defer></script>
+    <script src="js/contactame.js" defer></script>
+    <script src="Imagenes/carrusel.js" defer></script>
+</body>
+</html>
